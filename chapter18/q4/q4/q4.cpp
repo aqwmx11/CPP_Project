@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+template <class T>
+class myclass {
+	T i;
+public:
+	myclass(T a):i(a){}
+	void show() {
+		cout << i << endl;
+	}
+};
+int main() {
+	myclass<char*> obj("This");
+	obj.show();//Êä³öThis
+	return 0;
+}

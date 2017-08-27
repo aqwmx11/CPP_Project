@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/5/7 22:46:42。
+     1>项目“C:\Users\illusion\Desktop\程序设计与算法\0507\字符串操作\字符串操作\字符串操作.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "字符串操作.cpp"
+         字符串操作.cpp
+     1>c:\users\illusion\desktop\程序设计与算法\0507\字符串操作\字符串操作\字符串操作.cpp(135): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\visual studio\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>c:\users\illusion\desktop\程序设计与算法\0507\字符串操作\字符串操作\字符串操作.cpp(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>c:\users\illusion\desktop\程序设计与算法\0507\字符串操作\字符串操作\字符串操作.cpp(173): warning C4018: “<”: 有符号/无符号不匹配
+     1>已完成生成项目“C:\Users\illusion\Desktop\程序设计与算法\0507\字符串操作\字符串操作\字符串操作.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.38

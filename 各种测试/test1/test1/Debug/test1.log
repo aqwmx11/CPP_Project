@@ -1,0 +1,4 @@
+﻿  mytest.cpp
+c:\users\illusion\desktop\uu\程序设计与算法\各种测试\test1\test1\mytest.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  test1.vcxproj -> C:\Users\illusion\Desktop\UU\程序设计与算法\各种测试\test1\Debug\test1.exe
+  test1.vcxproj -> C:\Users\illusion\Desktop\UU\程序设计与算法\各种测试\test1\Debug\test1.pdb (Full PDB)

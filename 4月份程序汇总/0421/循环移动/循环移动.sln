@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "循环移动", "循环移动\循环移动.vcxproj", "{AC83C6A9-566C-4543-8501-4D4DB0539125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC83C6A9-566C-4543-8501-4D4DB0539125}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AC83C6A9-566C-4543-8501-4D4DB0539125}.Debug|Win32.Build.0 = Debug|Win32
+		{AC83C6A9-566C-4543-8501-4D4DB0539125}.Release|Win32.ActiveCfg = Release|Win32
+		{AC83C6A9-566C-4543-8501-4D4DB0539125}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

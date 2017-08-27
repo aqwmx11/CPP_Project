@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符输入测试", "字符输入测试\字符输入测试.vcxproj", "{D9C44E68-E47C-443E-9262-9B131C8D09A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9C44E68-E47C-443E-9262-9B131C8D09A0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D9C44E68-E47C-443E-9262-9B131C8D09A0}.Debug|Win32.Build.0 = Debug|Win32
+		{D9C44E68-E47C-443E-9262-9B131C8D09A0}.Release|Win32.ActiveCfg = Release|Win32
+		{D9C44E68-E47C-443E-9262-9B131C8D09A0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

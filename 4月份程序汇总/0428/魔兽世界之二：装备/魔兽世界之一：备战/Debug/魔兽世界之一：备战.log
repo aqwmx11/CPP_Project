@@ -1,0 +1,18 @@
+﻿生成启动时间为 2016/4/30 0:12:27。
+     1>项目“C:\Users\illusion\Desktop\程序设计与算法\0428\魔兽世界之二：装备\魔兽世界之一：备战\魔兽世界之一：备战.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (魔兽世界之一：备战.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         D:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "魔兽世界之二：装备.cpp"
+         魔兽世界之二：装备.cpp
+     1>c:\users\illusion\desktop\程序设计与算法\0428\魔兽世界之二：装备\魔兽世界之一：备战\魔兽世界之二：装备.cpp(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\illusion\desktop\程序设计与算法\0428\魔兽世界之二：装备\魔兽世界之一：备战\魔兽世界之二：装备.cpp(2): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\illusion\desktop\程序设计与算法\0428\魔兽世界之二：装备\魔兽世界之一：备战\魔兽世界之二：装备.cpp(3): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+     1>c:\users\illusion\desktop\程序设计与算法\0428\魔兽世界之二：装备\魔兽世界之一：备战\魔兽世界之二：装备.cpp(4): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+       Link:
+         D:\visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\illusion\Desktop\程序设计与算法\0428\魔兽世界之二：装备\Debug\魔兽世界之二：装备.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\illusion\Desktop\程序设计与算法\0428\魔兽世界之二：装备\Debug\魔兽世界之二：装备.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\illusion\Desktop\程序设计与算法\0428\魔兽世界之二：装备\Debug\魔兽世界之二：装备.lib" /MACHINE:X86 "Debug\魔兽世界之二：装备.obj"
+         魔兽世界之一：备战.vcxproj -> C:\Users\illusion\Desktop\程序设计与算法\0428\魔兽世界之二：装备\Debug\魔兽世界之二：装备.exe
+     1>已完成生成项目“C:\Users\illusion\Desktop\程序设计与算法\0428\魔兽世界之二：装备\魔兽世界之一：备战\魔兽世界之一：备战.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.86

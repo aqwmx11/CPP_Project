@@ -1,0 +1,1 @@
+Sample(const Sample & p) { v = 2*p.v; }

@@ -1,0 +1,37 @@
+class Array2 {
+	int ** p;
+	int hang;
+	int lie;
+public:
+	Array2(const int &a, const int &b) {
+		hang = a;
+		lie = b;
+		p = new int *[a];
+		for (int i = 0; i < a; i++)
+			p[i] = new int[b];
+	}
+	Array2() {
+		hang = 0;
+		lie = 0;
+		p = NULL;
+	}
+	int * operator[](const int &i) {
+		return this->p[i];
+	}
+	int & operator()(const int &i, const int &j) {
+		return this->p[i][j];
+	}
+	Array2 & operator= (const Array2 &a) {
+			if (p) {
+				for (int m = 0; m < hang; m++)
+					delete[]p[m];
+			}
+			hang = a.hang;
+			lie = a.lie;
+			p = new int*[a.hang];
+			for (int m = 0; m < a.hang; m++)
+				p[m] = new int[a.lie];
+			memcpy(p, a.p, a.hang*a.lie*sizeof(int));
+		return *this;
+	}
+};
