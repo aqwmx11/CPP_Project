@@ -64,10 +64,30 @@ int sumOfLeftLeaves(myNode* top) {
 	return sumOfLeftLeaves(top->left) + sumOfLeftLeaves(top->right);
 }
 
+//6th function, find the sum of the whole tree
 int findSum(myNode* root) {
 	if (!root)
 		return 0;
 	return findSum(root->left) + findSum(root->right) + root->val;
+}
+
+//7th funtion, calculate the tilt of a tree
+//LeetCode 563
+int findTilt(myNode* root) {
+	if (!root)
+		return 0;
+	return findTilt(root->left) + findTilt(root->right) + abs(findSum(root->left) - findSum(root->right));
+}
+
+//8th function, merge two trees
+//LeetCode 617
+myNode* mergeTrees(myNode* t1, myNode* t2) {
+	if (!t1) return t2;
+	if (!t2) return t1;
+	myNode* newNode = new myNode(t1->val + t2->val);
+	newNode->left = mergeTrees(t1->left, t2->left);
+	newNode->right = mergeTrees(t1->right, t2->right);
+	return newNode;
 }
 
 int main() {
